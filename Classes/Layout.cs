@@ -8,6 +8,7 @@ namespace DigiBank.Classes
 {
     public class Layout
     {
+        private static List<Pessoa> pessoas = new List<Pessoa>();
         private static int opcao = 0;
         public static void TelaPrincipal()
         {
@@ -62,6 +63,21 @@ namespace DigiBank.Classes
             Console.WriteLine(senha);
 
             //Criar uma conta
+
+            ContaCorrente contaCorrente = new ContaCorrente();
+            Pessoa  pessoa = new Pessoa();
+
+            pessoa.SetNome(nome);
+            pessoa.SetCPF(cpf);
+            pessoa.SetSenha(senha);
+            pessoa.Conta = contaCorrente;
+
+            pessoas.Add(pessoa);
+
+            Console.Clear();
+
+            Console.WriteLine("                                          Conta cadastrada com sucesso       ");
+            Console.WriteLine("                                          ============================       ");
 
         }
 
