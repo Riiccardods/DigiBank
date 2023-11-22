@@ -20,7 +20,7 @@ namespace DigiBank.Classes
             Console.WriteLine("                                                                             ");
             Console.WriteLine("                                           Digite a Opção desejada :         ");
             Console.WriteLine("                                          ============================       ");
-            Console.WriteLine("                                          1 - Criar Conta...                    ");
+            Console.WriteLine("                                          1 - Criar Conta....                    ");
             Console.WriteLine("                                          ============================       ");
             Console.WriteLine("                                          2 - Entrar com CPF e Senha         ");
             Console.WriteLine("                                          ============================       ");
