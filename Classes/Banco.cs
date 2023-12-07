@@ -10,7 +10,7 @@ namespace DigiBank.Classes
     {
         public Banco()
         {
-            this.NomeDoBanco = "DigiBank";
+            this.NomeDoBanco = "DigiBank.";
             this.CodigoDoBanco = "027";
 
         }
